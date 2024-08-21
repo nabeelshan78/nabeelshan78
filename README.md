@@ -44,5 +44,4 @@
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=nabeelshan78&theme=radical)
 ## 📊 LeetCode Stats
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/Nabeelshan3443?theme=dark&ext=activity)](https://leetcode.com/Nabeelshan3443/)
+![Leetcode Stats](https://leetcard.jacoblin.cool/Nabeelshan3443?theme=dark)
