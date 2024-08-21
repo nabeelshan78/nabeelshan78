@@ -43,4 +43,4 @@
 ## 📈 GitHub Streak
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=nabeelshan78&theme=radical)
-
+![Leetcode Stats](https://leetcode.com/u/Nabeelshan3443/)
