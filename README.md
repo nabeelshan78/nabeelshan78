@@ -73,7 +73,6 @@ End-to-end YOLO-based object detection system in TensorFlow/Keras with full pipe
 ✅ **Freelance projects** in ML, DL, model building & deployment  
 ✅ **Research collaborations** on applied deep learning  
 ✅ **Open-source contributions** and Kaggle competitions  
-✅ **Fully-funded Master's opportunities** (Fall 2026, US/Canada/Europe)
 
 ---
 
