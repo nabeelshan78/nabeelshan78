@@ -1,10 +1,18 @@
 <div id="header" align="center">
-  <img src="https://media.licdn.com/dms/image/D4D16AQHxL_Wf49LpWw/profile-displaybackgroundimage-shrink_350_1400/0/1721588631169?e=1728518400&v=beta&t=H-W62534f5xJ3j28E007JpWwI-S2zV3u67pG5X09s1k" width="100%"/>
-  <h1 align="center">Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px">, I'm Nabeel Shan</h1>
+  <img src="banner.jpg" alt="Banner" width="200" height="250" 
+  
+  <h1 align="center">
+    Hi there 
+    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px">, 
+    I'm Nabeel Shan
+  </h1>
+  
   <h3 align="center">AI/ML Engineer | Researcher | Open Source Contributor</h3>
+  
   <p align="center">
     I build and scale end-to-end intelligent systems, from implementing foundational models from scratch to fine-tuning state-of-the-art LLMs.
   </p>
+  
   <div align="center">
     <a href="https://nabeelshan.vercel.app/" target="_blank">
       <img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio"/>
@@ -17,6 +25,7 @@
     </a>
   </div>
 </div>
+
 
 ---
 
