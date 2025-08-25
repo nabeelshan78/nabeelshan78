@@ -32,6 +32,9 @@
 
 ---
 
+
+<!--
+
 ### 🚀 Featured Projects
 
 Here are some of the projects I'm most proud of. They showcase my ability to handle the full lifecycle of an AI project—from ideation and data engineering to model architecture, training, and deployment.
@@ -63,6 +66,7 @@ Here are some of the projects I'm most proud of. They showcase my ability to han
 
 
 ---
+-->
 
 
 ### 🛠️ My Core Competencies & Tech Stack
