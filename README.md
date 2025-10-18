@@ -51,8 +51,6 @@ Here are some of the projects I'm most proud of. They showcase my ability to han
 | **Foundational NN Architectures from Scratch (NumPy)** | A suite of projects implementing core neural architectures-**DNNs, CNNs, and RNNs—from the ground up in pure NumPy**. This collection showcases a first-principles mastery of deep learning, including manual implementation of advanced optimizers (Adam, RMSProp), regularization (Dropout), 2D convolution, Backpropagation Through Time (BPTT), and gradient clipping.<br><br>**`Tech Stack:`** `NumPy` `Python` `Deep Learning` `From Scratch` `Math` `CNNs` `RNNs` | [<img src="https://img.shields.io/badge/DNN-100000?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/nabeelshan78/deep-nn-from-scratch) [<img src="https://img.shields.io/badge/CNN-100000?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/nabeelshan78/cnn-from-scratch-sign-digits) [<img src="https://img.shields.io/badge/RNN-100000?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/nabeelshan78/vanilla-rnn-from-scratch) |
 
 
-
-
 ### 🔬 Foundational & Other Noteworthy Projects
 
 * **ResNet-50 from Scratch:** A ground-up implementation of the full ResNet-50 architecture. ([Code](https://github.com/nabeelshan78/resnet50-from-scratch-cifar10))
