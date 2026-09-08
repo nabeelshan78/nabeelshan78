@@ -18,9 +18,6 @@
     <a href="https://nabeelshan.vercel.app/" target="_blank">
       <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=react&logoColor=white" height="28" alt="Portfolio"/>
     </a>
-    <a href="https://nabeelshan.vercel.app/cv" target="_blank">
-      <img src="https://img.shields.io/badge/CV-4B5563?style=for-the-badge&logoColor=white" height="28" alt="CV"/>
-    </a>
     <a href="https://www.linkedin.com/in/nabeelshan/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn"/>
     </a>
