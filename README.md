@@ -30,7 +30,7 @@
 
 ### Research Focus
 
-Reinforcement learning for large language and vision-language models - post-training, reward design, and the evaluation that catches what the loss curve doesn't.
+Reinforcement learning for large language and vision-language models — post-training, reward design, and the evaluation that catches what the loss curve doesn't.
 
 * **Alignment & Reinforcement Learning** — RLHF, PPO, GRPO, reward modeling, reward-hacking mitigation
 * **Vision-Language & Multimodal Models** — VLM adaptation, visual grounding, semantic segmentation
