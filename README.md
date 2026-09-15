@@ -47,7 +47,7 @@ I build architectures from first principles before reaching for abstractions —
 
 Architecting four parallel VLM adaptation pipelines over Qwen3-VL (2B/4B/8B) via two-phase LoRA SFT → GRPO on an H100/H200 SLURM cluster, to measure whether multi-task output helps or hurts each sub-task.
 
-Most of that time has gone into reward design rather than training. Under flat true-negative constants, never predicting a rare class turned out to be *mathematically optimal* — a break-even IoU of 1.55, above the attainable maximum of 1.0 — so the policy was being paid to stay silent, and nothing in the training loop would have flagged it. I re-derived the constants from measured class prevalence and added a regression guard, one of 576 CPU-only tests, that fails the build whenever a degenerate policy outscores an honest one.
+Most of that time has gone into reward design rather than training. Two exploits fell out of analysing the reward surface rather than the traning curves: reflexively asserting the most common violation beat honest abstention by 5×, and for rare object classes the break-even IoU came out at 1.55 — above the attainable maximum of 1.0 — so never predicting the class was strictly dominant. The policy was being paid to stay silent, and nothing in the training loop would have flagged it. I re-derived the constants from measured class prevalence and added a regression guard, one of 576 CPU-only tests, that fails the build whenever a degenerate policy outscores an honest one.
 
 ---
 
@@ -55,9 +55,9 @@ Most of that time has gone into reward design rather than training. Under flat t
 
 | Project | Focus | Stack |
 |---|---|---|
+| [**RLHF from Scratch**](https://github.com/nabeelshan78/reinforcement-learning-human-feedback-scratch) | 3-stage alignment pipeline (SFT → RM → PPO), 98% reward-model accuracy, +54% mean reward | PyTorch, TRL, QLoRA |
 | [**Transformer Adaptation Playbook**](https://github.com/nabeelshan78/Transformer-Adaptation-Playbook) | Adapters & LoRA built from the papers' math; 5 adaptation strategies benchmarked — Adapters match full FT at 92% fewer params | PyTorch |
 | [**Attention Is All You Need**](https://github.com/nabeelshan78/attention-is-all-you-need-scratch) | 63M-param Transformer verified at tensor, gradient, and memory-pointer level; exact analytic parameter count | PyTorch |
-| [**RLHF from Scratch**](https://github.com/nabeelshan78/reinforcement-learning-human-feedback-scratch) | 3-stage alignment pipeline (SFT → RM → PPO), 98% reward-model accuracy, +54% mean reward | PyTorch, TRL, QLoRA |
 | [**First-Principles Deep Learning**](https://github.com/nabeelshan78/First-Principles-Deep-Learning) | DNN, CNN, RNN in raw NumPy — no autograd, BPTT and optimizers derived by hand | NumPy |
 | [**PixelSense**](https://github.com/nabeelshan78/pixelsense-ai-segmentation) | U-Net from scratch, no pretrained backbone, 23-class segmentation, 0.908 val mIoU | TensorFlow/Keras |
 | [**ResearchFlow**](https://github.com/nabeelshan78/researchflow-multiagent-research-assistant) | Cyclical 4-agent system with self-correcting validation and HITL interrupts | LangGraph, Llama-3 |
