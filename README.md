@@ -7,10 +7,10 @@
     <strong>MITACS Globalink Research Intern</strong> @ University of Calgary
   </p>
   <p>
-    Applied and theoretical machine learning — from raw NumPy backpropagation to multi-agent systems.
+    Applied and theoretical machine learning - from raw NumPy backpropagation to multi-agent systems.
   </p>
   <p>
-    Seeking a <strong>thesis-based MSc for Fall 2027</strong> — efficient adaptation and inference,
+    Seeking a <strong>thesis-based MSc for Fall 2027</strong> - efficient adaptation and inference,
     RL for reasoning, agentic systems.
   </p>
 
@@ -33,10 +33,10 @@
 
 Reinforcement learning for large language and vision-language models — post-training, reward design, and the evaluation that catches what the loss curve doesn't.
 
-* **Alignment & Reinforcement Learning** — RLHF, PPO, GRPO, reward modeling, reward-hacking mitigation
-* **Vision-Language & Multimodal Models** — VLM adaptation, visual grounding, semantic segmentation
-* **Efficient Adaptation & Inference** — PEFT (LoRA, Adapters), quantization, knowledge distillation
-* **Agentic Systems & Retrieval** — multi-agent orchestration, structured outputs, verifiable RAG
+* **Alignment & Reinforcement Learning** - RLHF, PPO, GRPO, reward modeling, reward-hacking mitigation
+* **Vision-Language & Multimodal Models** - VLM adaptation, visual grounding, semantic segmentation
+* **Efficient Adaptation & Inference** - PEFT (LoRA, Adapters), quantization, knowledge distillation
+* **Agentic Systems & Retrieval** - multi-agent orchestration, structured outputs, verifiable RAG
 
 I build architectures from first principles before reaching for abstractions — Transformers, CNNs, RNNs, and PEFT modules implemented and validated from scratch.
 
