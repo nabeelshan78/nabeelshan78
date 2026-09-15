@@ -31,14 +31,14 @@
 
 ### Research Focus
 
-Reinforcement learning for large language and vision-language models — post-training, reward design, and the evaluation that catches what the loss curve doesn't.
+Reinforcement learning for large language and vision-language models - post-training, reward design, and the evaluation that catches what the loss curve doesn't.
 
 * **Alignment & Reinforcement Learning** - RLHF, PPO, GRPO, reward modeling, reward-hacking mitigation
 * **Vision-Language & Multimodal Models** - VLM adaptation, visual grounding, semantic segmentation
 * **Efficient Adaptation & Inference** - PEFT (LoRA, Adapters), quantization, knowledge distillation
 * **Agentic Systems & Retrieval** - multi-agent orchestration, structured outputs, verifiable RAG
 
-I build architectures from first principles before reaching for abstractions — Transformers, CNNs, RNNs, and PEFT modules implemented and validated from scratch.
+I build architectures from first principles before reaching for abstractions - Transformers, CNNs, RNNs, and PEFT modules implemented and validated from scratch.
 
 ---
 
