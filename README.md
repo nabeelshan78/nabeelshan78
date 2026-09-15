@@ -47,7 +47,7 @@ I build architectures from first principles before reaching for abstractions —
 
 Architecting four parallel VLM adaptation pipelines over Qwen3-VL (2B/4B/8B) via two-phase LoRA SFT → GRPO on an H100/H200 SLURM cluster, to measure whether multi-task output helps or hurts each sub-task.
 
-Most of that time has gone into reward design rather than training. Two exploits fell out of analysing the reward surface rather than the traning curves: reflexively asserting the most common violation beat honest abstention by 5×, and for rare object classes the break-even IoU came out at 1.55 — above the attainable maximum of 1.0 — so never predicting the class was strictly dominant. The policy was being paid to stay silent, and nothing in the training loop would have flagged it. I re-derived the constants from measured class prevalence and added a regression guard, one of 576 CPU-only tests, that fails the build whenever a degenerate policy outscores an honest one.
+Most of that time has gone into reward design rather than training. Two exploits fell out of analysing the reward surface rather than the training curves: reflexively asserting the most common violation beat honest abstention by 5×, and for rare object classes the break-even IoU came out at 1.55 — above the attainable maximum of 1.0 — so never predicting the class was strictly dominant. The policy was being paid to stay silent, and nothing in the training loop would have flagged it. I re-derived the constants from measured class prevalence and added a regression guard, one of 576 CPU-only tests, that fails the build whenever a degenerate policy outscores an honest one.
 
 ---
 
