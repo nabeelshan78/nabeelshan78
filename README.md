@@ -60,6 +60,7 @@ Most of that time has gone into reward design rather than training. Two exploits
 | [**Attention Is All You Need**](https://github.com/nabeelshan78/attention-is-all-you-need-scratch) | 63M-param Transformer verified at tensor, gradient, and memory-pointer level; exact analytic parameter count | PyTorch |
 | [**First-Principles Deep Learning**](https://github.com/nabeelshan78/First-Principles-Deep-Learning) | DNN, CNN, RNN in raw NumPy — no autograd, BPTT and optimizers derived by hand | NumPy |
 | [**PixelSense**](https://github.com/nabeelshan78/pixelsense-ai-segmentation) | U-Net from scratch, no pretrained backbone, 23-class segmentation, 0.908 val mIoU | TensorFlow/Keras |
+| [**Math-VLM**](https://github.com/nabeelshan78/math-vlm-finetune-pipeline) | PaliGemma-3B adapted with QLoRA for handwritten expression → LaTeX | PyTorch, PEFT |
 | [**ResearchFlow**](https://github.com/nabeelshan78/researchflow-multiagent-research-assistant) | Cyclical 4-agent system with self-correcting validation and HITL interrupts | LangGraph, Llama-3 |
 
 ---
