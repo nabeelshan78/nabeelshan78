@@ -47,18 +47,12 @@ I build architectures from first principles before reaching for abstractions - T
 >
 > Four parallel VLM adaptation pipelines over Qwen3-VL at **2B, 4B and 8B** - captioning,
 > object grounding, safety-violation reasoning, and all three jointly - two-phase LoRA SFT
-> → GRPO against verifiable, code-computed rewards on an H100/H200 SLURM cluster. A
+> -> GRPO against verifiable, code-computed rewards on an H100 SLURM cluster. A
 > single-variable design: does multi-task output help or hurt each sub-task, and does the
 > answer change with model size?
 >
-> Running alongside it, an accuracy–latency–cost comparison across the three scales and a
+> Running alongside it, an accuracy-latency-cost comparison across the three scales and a
 > multi-agent tier - finding where the capability gain stops paying for the inference.
->
-> Most of the time has gone into reward design rather than training. Working the reward
-> surface out algebraically instead of reading training curves turned up two cases where a
-> degenerate policy strictly dominated an honest one; neither raised an error, neither moved
-> the loss. Fixed by re-deriving the constants from measured class prevalence, with a
-> validator among 576 CPU-only tests that fails the build whenever a degenerate policy wins.
 
 ---
 
