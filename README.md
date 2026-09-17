@@ -1,16 +1,13 @@
 <div align="center">
   <h1>Nabeel Shan</h1>
   <p>
-    <strong>AI/ML Researcher & Engineer</strong> | B.E. Software Engineering @ <strong>NUST ('27)</strong>
+    <strong>AI/ML Researcher & Engineer</strong> · B.E. Software Engineering @ <strong>NUST ('27)</strong>
   </p>
   <p>
-    <strong>MITACS Globalink Research Intern</strong> @ University of Calgary
+    <strong>MITACS Globalink Research Intern</strong> @ University of Calgary - Schulich School of Engineering
   </p>
   <p>
-    Applied and theoretical machine learning - from raw NumPy backpropagation to multi-agent systems.
-  </p>
-  <p>
-    Seeking a <strong>thesis-based MSc for Fall 2027</strong> - RL for LLMs and VLMs, reward design, efficient adaptation, and agentic systems.
+    Seeking a thesis-based MSc for <strong>Fall 2027</strong>.
   </p>
 
   <div>
@@ -28,16 +25,25 @@
 
 ---
 
-### Research Focus
+### Research
 
-Reinforcement learning for large language and vision-language models - post-training, reward design, and the evaluation that catches what the loss curve doesn't.
+I work on large language and vision-language models that reason better and cost less to run.
 
-* **Alignment & Reinforcement Learning** - RLHF, PPO, GRPO, reward modeling, reward-hacking mitigation
-* **Vision-Language & Multimodal Models** - VLM adaptation, visual grounding, semantic segmentation
-* **Efficient Adaptation & Inference** - PEFT (LoRA, Adapters), quantization, knowledge distillation
-* **Agentic Systems & Retrieval** - multi-agent orchestration, structured outputs, verifiable RAG
+> Most of what I do comes down to one question: **where the compute goes.** We can spend it
+> after pretraining with reinforcement learning, save it with efficient adaptation and
+> compression, or spend it at inference - letting a model think longer, call a tool, or hand off
+> to another agent. And we need evaluation we can trust to know whether any of it worked,
+> because the failures that matter here rarely raise an error.
 
-I build architectures from first principles before reaching for abstractions - Transformers, CNNs, RNNs, and PEFT modules implemented and validated from scratch.
+| | |
+|---|---|
+| **Post-Training & Reinforcement Learning** | RLHF, RL with verifiable rewards, GRPO/GSPO, preference optimisation, reward modelling and reward design |
+| **Efficient Adaptation & Inference** | Parameter-efficient fine-tuning, quantization, and distillation |
+| **Test-Time Compute & Agentic Systems** | Inference-time scaling, verification and self-correction loops, multi-agent orchestration, and tool use |
+| **Evaluation & Trustworthy Systems** | Reward hacking, hallucination, silent capability loss, and evaluation |
+
+I build architectures from first principles before reaching for abstractions - Transformers,
+CNNs, RNNs and PEFT modules implemented and validated from scratch.
 
 ---
 
@@ -60,7 +66,7 @@ I build architectures from first principles before reaching for abstractions - T
 
 | Project | Focus | Stack |
 |---|---|---|
-| [**RLHF from Scratch**](https://github.com/nabeelshan78/reinforcement-learning-human-feedback-scratch) | 3-stage alignment pipeline (SFT → RM → PPO), 98% reward-model accuracy, +54% mean reward | PyTorch, TRL, QLoRA |
+| [**RLHF from Scratch**](https://github.com/nabeelshan78/reinforcement-learning-human-feedback-scratch) | 3-stage alignment pipeline (SFT -> RM -> PPO), 98% reward-model accuracy, +54% mean reward | PyTorch, TRL, QLoRA |
 | [**Transformer Adaptation Playbook**](https://github.com/nabeelshan78/Transformer-Adaptation-Playbook) | Adapters & LoRA built from the papers' math; 5 adaptation strategies benchmarked - Adapters match full FT at 92% fewer params | PyTorch |
 | [**Attention Is All You Need**](https://github.com/nabeelshan78/attention-is-all-you-need-scratch) | 63M-param Transformer verified at tensor, gradient, and memory-pointer level; exact analytic parameter count | PyTorch |
 | [**First-Principles Deep Learning**](https://github.com/nabeelshan78/First-Principles-Deep-Learning) | DNN, CNN, RNN in raw NumPy - no autograd, BPTT and optimizers derived by hand | NumPy |
