@@ -72,7 +72,7 @@ CNNs, RNNs and PEFT modules implemented and validated from scratch.
 | [**First-Principles Deep Learning**](https://github.com/nabeelshan78/First-Principles-Deep-Learning) | DNN, CNN, RNN in raw NumPy - no autograd, BPTT and optimizers derived by hand | NumPy |
 | [**PixelSense**](https://github.com/nabeelshan78/pixelsense-ai-segmentation) | U-Net from scratch, no pretrained backbone, 23-class segmentation, 0.908 val mIoU | TensorFlow/Keras |
 | [**Math-VLM**](https://github.com/nabeelshan78/math-vlm-finetune-pipeline) | PaliGemma-3B adapted with QLoRA for handwritten expression → LaTeX | PyTorch, PEFT |
-| [**ResearchFlow**](https://github.com/nabeelshan78/researchflow-multiagent-research-assistant) | Cyclical 4-agent system with self-correcting validation and HITL interrupts | LangGraph, Llama-3 |
+| [**ResearchFlow**](https://github.com/nabeelshan78/researchflow-multiagent-research-assistant) | Cyclical 4-agent system with self-correcting validation, validator agent re-runs research until it passes, plus two-tier model routing and HITL interrupts | LangGraph, Llama-3 |
 
 ---
 
