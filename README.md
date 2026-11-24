@@ -6,9 +6,9 @@
   <p>
     <strong>MITACS Globalink Research Intern</strong> @ University of Calgary - Schulich School of Engineering
   </p>
-  <p>
+  <!-- <p>
     Seeking a thesis-based MSc for <strong>Fall 2027</strong>.
-  </p>
+  </p> -->
 
   <div>
     <a href="https://nabeelshan.vercel.app/" target="_blank">
